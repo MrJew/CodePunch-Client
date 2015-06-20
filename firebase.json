@@ -1,5 +1,5 @@
 {
-  "firebase": "python-dojo",
+  "firebase": "codepunch",
   "public": ".",
   "ignore": [
     "firebase.json",
