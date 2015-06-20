@@ -1,8 +1,6 @@
 
 var app = angular.module('CodePunch', ['firebase', 'ngRoute'])
 
-
-
 $(document).ready({
     
 });
@@ -17,27 +15,20 @@ app.controller('MainCtrl', function($scope, $firebase) {
 
 });
 
-
-
-app.controller('QuestionsCtrl', ['$scope', '$location', '$anchorScroll',
-    function($scope, $location, $anchorScroll) ,{
-        
-    }
-]);
-
 app.config(function($routeProvider) {
     $routeProvider
     // ----------- Landing Page -----------
         .when('/', {
-            templateUrl: 'views/main.html',
-            controller: 'MainCtrl'
+            templateUrl: 'home.html',
+            controller: 'IndexCtrl'
         })
-        .when('/questions', {
-            templateUrl: 'views/questions.html',
-            controller: 'QuestionsCtrl'
+        .when('/list', {
+            templateUrl: 'list.html',
+            controller: 'ListCtrl'
         })
-        .when('/slides', {
-            templateUrl: 'views/slides.html'
+        .when('/blah', {
+            templateUrl: 'game.html',
+            controller: 'GameCtrl'
         })
         .otherwise({
             redirectTo: '/'
