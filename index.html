@@ -10,6 +10,8 @@
     <!-- Firebase -->
     <script src="//cdn.firebase.com/js/client/2.0.4/firebase.js"></script>
     <!-- AngularFire -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
     <script src="//cdn.firebase.com/libs/angularfire/0.9.2/angularfire.min.js"></script>
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" />
     <link type="text/css" rel="stylesheet/less" href="css/style.less" />
@@ -50,15 +52,22 @@
       
       
       <!-- Sidebar Start -->
-      <div class="list-group col-md-3 col-mid-offset-8">
+      <div class="panel-group col-md-3 col-mid-offset-8" id="accordion" role="tablist" aria-multiselectable="true">
+      <div class="panel panel-default" id="objectiveContainter"> 
+        
+      </div>
+      </div>
+
+
+      <!-- <div class="list-group col-md-3 col-mid-offset-8">
         <a href="#" class="list-group-item objective" data-toggle="collapse" href="#collapseExample">
         <div class="collapse" id="collapseExample">
           <h4 class="list-group-item-heading ">FizzBuzz</h4>
-          <p class="list-group-item-text">Please write a function when given a number is should print "fizz" for every number divisible by 3 and "buzz" for every number divisible by 5 and "fizzbuzz" for every number divisible on both</p>
+          <p class="list-group-item-text"></p>
           </div>
         </a>
         <a href="#" class="list-group-item objective">
-        
+
           <h4 class="list-group-item-heading">Fibonacci</h4>
           <p class="list-group-item-text">Please write a function when given a number will print a list with the fibonacci series up to that number </p>
         </a>
@@ -70,7 +79,7 @@
           <h4 class="list-group-item-heading">Digits</h4>
           <p class="list-group-item-text">Please write a function when given a number will create an array with all digits of that number</p>
         </a>
-      </div>
+      </div> -->
       <!-- Sidebar End -->
     </div>
     <!-- Content End -->
