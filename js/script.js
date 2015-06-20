@@ -26,7 +26,7 @@ app.config(function($routeProvider) {
             templateUrl: 'list.html',
             controller: 'ListCtrl'
         })
-        .when('/blah', {
+        .when('/game', {
             templateUrl: 'game.html',
             controller: 'GameCtrl'
         })
