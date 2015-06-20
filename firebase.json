@@ -1,0 +1,9 @@
+{
+  "firebase": "python-dojo",
+  "public": ".",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
