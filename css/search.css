@@ -1,0 +1,67 @@
+.content-container {
+	max-width: 980px;
+	margin: 0 auto;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.search-form {
+	min-height: 50px;
+	font-size: 1.3em;
+	line-height: 1.8em;
+}
+
+.header-container {
+	min-height: 90px;
+}
+
+
+.competitors-container {
+/*	background-color: #EDEDED;
+	border-radius: 5px;*/
+}
+
+.thumbnail-name {
+	 position: absolute;
+    top: 0px;
+    width: 100%;
+	background-color: rgba(0,0,0, .15);
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	padding: 0;
+	margin: 0;
+}
+
+.thumbnail {
+	 position: relative;
+
+	padding: 0px;
+	background-image: url("http://placehold.it/400x300") ;
+	background-size: contain;
+
+	color:black;
+}
+.thumbnail a {
+	color:black;
+}
+
+.thumbnail a:hover {
+	color:black;
+}
+
+.thumbnail h3 {
+	margin-top: 0;
+	margin-bottom: 0;
+
+	padding: 5px 5px;
+}
+
+.thumbnail-score {
+ position: absolute;
+    bottom: 2px;
+    width: 100%;
+    font-size: 1.5em;
+	text-align: right;
+	padding-right: 10px;
+}
+
